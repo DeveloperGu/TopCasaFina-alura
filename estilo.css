@@ -1,0 +1,61 @@
+#paineis-sobre{
+	margin-top: 20px;
+}
+
+html, body{
+    height: 100%;
+}
+
+header {
+         background-image: url('img/castelo.jpg');
+         background-position: top center;
+         background-size: cover;
+    height: 100%;
+}
+
+header h1{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.topcasafina-banner{
+	color: #FFFFFF;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 20px;
+	width: 80%;
+	border-radius: 8px;
+	position: absolute; 
+	top: 50%;
+	left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.titulo-depoimento{
+	background-color: #0275D8;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: #FFFFFF;
+	margin-bottom: 0;
+	font-size: 22px;
+}
+
+.grupo-radio, .contato-select{
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.grupo-radio .radio:first-child{
+	margin-top: 0;
+}
+
+footer{
+	background: #333333;
+	color: #FFFFFF;
+	padding: 20px;
+	margin-top: 10px;
+}
+
+footer address:last-child{
+	margin-bottom: 0;
+}
